@@ -39,7 +39,7 @@ body {
   left: 0;
   right: 0;
   top: -71.5px;
-  margin: 0 auto;
+  margin: auto;
   display: grid;
   place-items: center;
 }
@@ -125,7 +125,7 @@ body {
   border-top: 8px solid transparent;
   border-bottom: 8px solid transparent;
   position: relative;
-  left: 41px;
+  left: 43px;
   bottom: 16px;
 }
 .filter:hover .handle {
@@ -149,7 +149,7 @@ body {
 }
 .coffee {
   height: 30px;
-  width: 8px;
+  width: 6px;
   background: #e06526;
   border-radius: 0 0 15px 15px;
   position: relative;
@@ -160,6 +160,7 @@ body {
 .filter:hover .coffee {
   animation: pour 6s 4s;
 }
+
 @keyframes pour {
   0% {
     visibility: visible;
@@ -236,7 +237,7 @@ body {
   height: 9.95px;
   position: absolute;
   border: 1px solid transparent;
-  bottom: 4px;
+  bottom: 3.45px;
   background-image: radial-gradient(#aa5e17 5px, transparent 6px);
   background-size: 10px 19px;
   background-position: -2.8px 0;
@@ -279,7 +280,7 @@ body {
   border-radius: 5px 5px 0 0;
   position: relative;
   margin: auto;
-  bottom: 75px;
+  bottom: 70px;
 }
 
 .lower:before {
