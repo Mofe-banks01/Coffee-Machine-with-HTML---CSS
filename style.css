@@ -219,7 +219,7 @@ body {
   background: #3b240e;
   height: 140px;
   position: relative;
-  margin: 0 auto;
+  margin: auto;
   bottom: 70px;
 }
 .back::before {
